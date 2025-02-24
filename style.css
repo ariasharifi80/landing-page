@@ -5,6 +5,12 @@
     box-sizing: border-box;
 }
 
+body{
+    display: flex;
+    flex-direction: column;
+    flex: auto;
+}
+
 header{
     display: flex;
     font-size: 24px;
@@ -92,10 +98,14 @@ a{
     padding-bottom: 60px;
     padding-right: 100px;
 }
+.bike-img img {
+    border-radius: 30px;
+}
 
 .content-2{
     display: flex;
     flex-direction: column;
+    
     
 }
 
@@ -104,7 +114,9 @@ a{
 .img-sec{
     display: flex;
    justify-content: center;
-   gap: 106px;
+   flex: auto;
+   
+
 }
 
 .image{
@@ -134,4 +146,72 @@ a{
     font-weight: 900;
     padding-top: 20px;
     margin-bottom: 150px;
+}
+
+.content-3{
+    background-color: #e5e7e5;
+    height: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    width: 50%;
+}
+
+.quote q {
+     padding-left: 500px;
+     
+}
+
+.content-4{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.action{
+    border: #3882F6 solid 2px;
+    width:50%;
+    height: 150px;
+    background-color: #3882F6;
+    margin: 100px;
+    border-radius: 20px;
+    display: flex;
+    justify-content: space-between;
+   
+   
+}
+
+.btn-s{
+    width: 10%;
+    height: 40px;
+    align-self: center;
+    margin-right: 80px;
+   border-radius: 10px;
+   background-color: #3882F6;
+   border-color: #e5e7e5;
+   color: wheat;
+    
+}
+
+.action-txt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 120px;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #1F2937;
+    height: 100px;
+    color: white;
 }
